@@ -8,7 +8,7 @@ import joblib
 import os
 from django.conf import settings
 
-
+# hhhhhhhhhhhhhhhh
 model_path = os.path.join(settings.BASE_DIR, 'model_chek.pkl')
 model_predict = joblib.load(model_path)
 vec_path = os.path.join(settings.BASE_DIR, 'vec.pkl')
