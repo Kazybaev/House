@@ -7,7 +7,7 @@ from .views import (
     FavoriteListView,
     RentalListCreateView, RentalStatusUpdateView
 )
-# urls --------
+# urls -------
 urlpatterns = [
     path('properties/', PropertyListCreateView.as_view(), name='property-list-create'),
     path('properties/<int:pk>/', PropertyDetailView.as_view(), name='property-detail'),
